@@ -1,0 +1,145 @@
+/* Main header CSS*/
+
+header {
+  background-color: black;
+  opacity: 0.9;
+  align-items: center;
+  height: 69px;
+  justify-content: center;
+  display: flex;
+  border-bottom: 1px solid white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.logo {
+  height: 50px;
+}
+
+
+header nav {
+  display: inline-block;
+  padding-right: 10px;
+
+  }
+
+nav span a {
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  padding: 5px;
+
+}
+
+/*body and universal css */
+
+body {
+  font-family: Helvetica;
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+  font-size: 22px;
+}
+
+img {
+  display: block;
+
+}
+
+/*flex container*/
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+
+}
+/*large box contents*/
+
+.container .largebox {
+  width: 1200px;
+  height: 700px;
+  background-image: URL(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.container .largebox .ourmission {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+/*middlebox contents*/
+.container .middlebox {
+  display: flex;
+  width: 1000px;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.variousteas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.tea {
+  margin-right: 10px;
+}
+
+.tea-images {
+  height: 200px;
+  width: 300px;
+}
+/*small box content*/
+
+.container .smallbox {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.locationcollective {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.locations {
+  width: 300px;
+  margin-top: 15px;
+  margin-right: 40px;
+  background-color: black;
+}
+
+/*about*/
+
+.about {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+}
